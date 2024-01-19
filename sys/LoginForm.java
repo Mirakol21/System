@@ -53,6 +53,10 @@ public class LoginForm extends JFrame {
             }
         });
 
+        JPanel signupButtonPanel = new JPanel();
+        signupButtonPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
+        signupButtonPanel.add(btnSignup);
+
         JButton btnLogin = new JButton("Login");
         btnLogin.setFont(mainFont);
         btnLogin.addActionListener(new ActionListener() {
@@ -95,7 +99,6 @@ public class LoginForm extends JFrame {
         JPanel buttoPanel = new JPanel();
         buttoPanel.setLayout(new GridLayout(1, 2, 10, 0));
         buttoPanel.setBorder(BorderFactory.createEmptyBorder(30, 50, 30, 50));
-        buttoPanel.add(btnSignup);
         buttoPanel.add(btnLogin);
         buttoPanel.add(btnCancel);
         
@@ -104,6 +107,7 @@ public class LoginForm extends JFrame {
 
         /*Initialize the Frame*/
         add(formPanel, BorderLayout.NORTH);
+        add(signupButtonPanel, BorderLayout.CENTER);
         add(buttoPanel, BorderLayout.SOUTH);
 
         setTitle("Login Form");
