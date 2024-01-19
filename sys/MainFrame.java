@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class MainFrame extends JFrame {
-    final private Font mainFont = new Font("Open Sans", Font.BOLD, 18);
+    final private Font mainFont = new Font("Open Sans", Font.BOLD, 15);
     public void initialize(User user) {
         /* Info Panel */
         JPanel infoPanel = new JPanel();
