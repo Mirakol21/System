@@ -6,7 +6,7 @@ import javax.swing.*;
 import com.formdev.flatlaf.FlatDarculaLaf;
 
 public class SignupForm extends JFrame {
-    final private Font mainFont = new Font("Open Sans", Font.BOLD, 18);
+    final private Font mainFont = new Font("Open Sans", Font.BOLD, 15);
     JTextField tfName, tfEmail, tfPhone, tfAddress;
     JPasswordField pfPassword;
 
