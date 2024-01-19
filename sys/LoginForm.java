@@ -6,7 +6,7 @@ import java.sql.*;
 import com.formdev.flatlaf.FlatDarculaLaf;
 
 public class LoginForm extends JFrame {
-    final private Font mainFont = new Font("Open Sans", Font.BOLD, 18);
+    final private Font mainFont = new Font("Open Sans", Font.BOLD, 15);
     SignupForm signupForm;
     JTextField tfEmail;
     JPasswordField pfPassword;
